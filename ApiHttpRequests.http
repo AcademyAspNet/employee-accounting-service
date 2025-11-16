@@ -1,0 +1,12 @@
+### Получить список компаний
+
+GET https://localhost:7091/api/v1/companies
+
+### Добавить компанию
+
+POST https://localhost:7091/api/v1/companies
+Content-Type: application/json; charset=utf-8
+
+{
+  "Name": "Яндекс"
+}
